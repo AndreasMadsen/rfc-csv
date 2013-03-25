@@ -1,0 +1,28 @@
+{
+  "name": "rfc-csv",
+  "description": "RFC 4180 CSV stream parser",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "scripts": {
+    "test": "tap test/test.js"
+  },
+  "main": "./csv.js",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/rfc-csv.git"
+  },
+  "keywords": [
+    "RFC 4180",
+    "CSV",
+    "stream",
+    "parser"
+  ],
+  "devDependencies": {
+    "tap": "0.4.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10",
+    "npm": "1"
+  }
+}
