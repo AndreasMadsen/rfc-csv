@@ -1,7 +1,7 @@
 {
   "name": "rfc-csv",
   "description": "RFC 4180 CSV stream parser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "scripts": {
     "test": "tap test/test.js"
@@ -18,11 +18,7 @@
     "parser"
   ],
   "devDependencies": {
-    "tap": "0.4.x"
+    "tap": "1.4.x"
   },
-  "license": "MIT",
-  "engines": {
-    "node": "0.10",
-    "npm": "1"
-  }
+  "license": "MIT"
 }
